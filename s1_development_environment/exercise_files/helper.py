@@ -27,7 +27,7 @@ def test_network(net, trainloader):
 
     return True
 
-
+# function fro showing omages in data
 def imshow(image, ax=None, title=None, normalize=True):
     """Imshow for Tensor."""
     if ax is None:

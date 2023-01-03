@@ -3,7 +3,7 @@ import numpy as np
 from torch import nn, optim
 from torch.autograd import Variable
 
-
+# function for testing networks
 def test_network(net, trainloader):
 
     criterion = nn.MSELoss()
